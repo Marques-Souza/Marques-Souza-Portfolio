@@ -1,289 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- google fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- biblioteca swiper js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-    <!-- box-icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css" />
+
+    
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <script src="js/animation.js" defer></script>
 
-    <!-- biblioteca ScrollReveal -->
+  
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <title>Marques Souza Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="#" class="logo">Portfolio</a>
-        <div class="nav">
-            <a href="#home">Home</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-        </div>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
 
-        <div class="nav-responsive">
-            <a href="#home">Home</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-        </div>
+      <div class="nav-responsive">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
 
-        <div class="menu-hamburgue">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-
+      <div class="menu-hamburgue">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </header>
 
-    <!-- home section -->
+
     <section class="home" id="home">
-        <div class="home-content">
-            <h3 class="home-animacao">Olá, eu sou</h3>
-            <h1 class="home-animacao">Marques Souza</h1>
-            <h3 class="home-animacao"><span class="text">Front-End Developer</span></h3>
-       
-            <p class="home-animacao">Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
-                Doloremque, inventore sit. Temporibus consectetur
-                est temporibus eligendi architecto?</p>
+      <div class="home-content">
+        <h3 class="home-animacao">Olá, eu sou</h3>
+        <h1 class="home-animacao">Marques Souza</h1>
+        <h3 class="home-animacao">
+          <span class="text">Front-End Developer</span>
+        </h3>
+        <a href="#about" class="btn home-animacao">About</a>
 
-
-            <div class="social-media icon-animacao">
-                <a href=""><i class='bx bxl-linkedin'></i></a>
-                <a href=""><i class='bx bxl-github'></i></a>
-            </div>
-
-            <div>
-                <a href="#" class="btn icon-animacao">Download CV</a>
-            </div>
+        <div class="social-media icon-animacao">
+          <a href="https://www.linkedin.com/in/marques-wsouza/"target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Marques-Souza" target="_blank"><i class="bx bxl-github"></i></a>
         </div>
 
-        <div class="home-img">
-
-            <img class="foto-animation" src="assets/Marques.png" alt="Profile picture">
-
+        <div>
+          <a href="assets/Marques-Souza_Dev-Front-End.pdf" class="btn icon-animacao" target="_blank" download>Download CV</a>
         </div>
+      </div>
 
+      <div class="home-img">
+        <img
+          class="foto-animation"
+          src="assets/Marques.png"
+          alt="Profile picture"
+        />
+      </div>
     </section>
-    <!-- / home section -->
 
-    <!-- skills section -->
-    <section class="skills " id="skills">
-        <h2 class="title">Skills</h2>
-        <div class="swiper mySwiper cards">
-            <div class="swiper-wrapper">
-                <div class="skills-box swiper-slide ">
-                    <img src="assets/item1_1.png" alt="Logo HTML">
-                    <div class="text-content">
-                        <h3>HTML</h3>
-                    </div>
-                </div>
-    
-                <div class="skills-box swiper-slide">
-                    <img src="assets/item1_2.png" alt="Logo CSS">
-                    <div class="text-content">
-                        <h3>CSS</h3>
-                    </div>
-                </div>
-    
-                <div class="skills-box swiper-slide">
-                    <img src="assets/item1_3.png" alt="Logo JavaScript">
-                    <div class="text-content">
-                        <h3>JAVASCRIPT</h3>
-                    </div>
-                </div>
-    
-                <div class="skills-box swiper-slide">
-                    <img src="assets/item1_4.png" alt="Logo Git e GitHub">
-                    <div class="text-content">
-                        <h3>GIT / GITHUB</h3>
-                    </div>
-                </div>
-    
-                <div class="skills-box swiper-slide">
-                    <img src="assets/item1_8.png" alt="Logo MySQL">
-                    <div class="text-content">
-                        <h3>BOOTSTRAP</h3>
-                    </div>
-                </div>
-    
-                <div class="skills-box swiper-slide">
-                    <img src="assets/item1_9.png" alt="Logo Node.js">
-                    <div class="text-content">
-                        <h3>ANGULAR</h3>
-                    </div>
-                </div>
+
+   
+    <section class="skills" id="skills">
+      <h2 class="title">Skills</h2>
+      <div class="swiper mySwiper cards">
+        <div class="swiper-wrapper">
+          <div class="skills-box swiper-slide">
+            <img src="assets/item1_1.png" alt="Logo HTML" />
+            <div class="text-content">
+              <h3>HTML</h3>
             </div>
-        </div>
-    </section>
-    
-    <!-- /skills section -->
+          </div>
 
-    <!-- projects section -->
+          <div class="skills-box swiper-slide">
+            <img src="assets/item1_2.png" alt="Logo CSS" />
+            <div class="text-content">
+              <h3>CSS</h3>
+            </div>
+          </div>
+
+          <div class="skills-box swiper-slide">
+            <img src="assets/item1_3.png" alt="Logo JavaScript" />
+            <div class="text-content">
+              <h3>JAVASCRIPT</h3>
+            </div>
+          </div>
+
+          <div class="skills-box swiper-slide">
+            <img src="assets/item1_4.png" alt="Logo Git e GitHub" />
+            <div class="text-content">
+              <h3>GIT / GITHUB</h3>
+            </div>
+          </div>
+
+          <div class="skills-box swiper-slide">
+            <img src="assets/item1_8.png" alt="Logo MySQL" />
+            <div class="text-content">
+              <h3>BOOTSTRAP</h3>
+            </div>
+          </div>
+
+          <div class="skills-box swiper-slide">
+            <img src="assets/item1_9.png" alt="Logo Node.js" />
+            <div class="text-content">
+              <h3>ANGULAR</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+  
     <section class="projects" id="projects">
-        <h2 class="title">Projects</h2>
+      <h2 class="title">Projects</h2>
 
-        <div class="projects-container ">
-            <div class="projects-box proj-1">
-                <img src="assets/01.jpg" alt=" projects 1">
-                <div class="projects-layer">
-                    <h4>Web Developer</h4>
+      <div class="projects-container">
+        <div class="projects-box proj-1">
+          <img src="assets/EmprestimoLivro.png" alt=" projects 1" />
+          <div class="projects-layer">
+            <h4>Emprestimo de Livros</h4>
 
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Harum rem eveniet expedita vitae beatae? Laborum,
-                        iusto rerum? Numquam, quod laborum.
-                    </p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="projects-box proj-2">
-                <img src="assets/02.jpg" alt="projects 2">
-                <div class="projects-layer">
-                    <h4>Web Developer</h4>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Harum rem eveniet expedita vitae beatae? Laborum,
-                        iusto rerum? Numquam, quod laborum.
-                    </p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="projects-box proj-3">
-                <img src="assets/03.jpg" alt="projects 3">
-                <div class="projects-layer">
-                    <h4>Web Developer</h4>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Harum rem eveniet expedita vitae beatae? Laborum,
-                        iusto rerum? Numquam, quod laborum.
-                    </p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-
-            <div class="projects-box proj-4">
-                <img src="assets/04.jpg" alt="projects 4">
-                <div class="projects-layer">
-                    <h4>Web Developer</h4>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Harum rem eveniet expedita vitae beatae? Laborum,
-                        iusto rerum? Numquam, quod laborum.
-                    </p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-
-            <div class="projects-box proj-5">
-                <img src="assets/05.jpg" alt="projects 5">
-                <div class="projects-layer">
-                    <h4>Web Developer</h4>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Harum rem eveniet expedita vitae beatae? Laborum,
-                        iusto rerum? Numquam, quod laborum.
-                    </p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-
-            <div class="projects-box proj-6">
-                <img src="assets/06.jpg" alt="projects 6">
-                <div class="projects-layer">
-                    <h4>Web Developer</h4>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Harum rem eveniet expedita vitae beatae? Laborum,
-                        iusto rerum? Numquam, quod laborum.
-                    </p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
-
-            </div>
+            <p>
+              Aplicação para gerenciamento de empréstimos de livros com CRUD de
+              usuários e livros. Desenvolvido em Angular 17 e API .NET, com
+              interface em HTML, CSS, Bootstrap e TypeScript. Suporta dois tipos
+              de usuários: administrador e padrão.
+            </p>
+            <a href="https://github.com/Marques-Souza/biblioteca-de-livros" target="_blank"><i class="bx bxl-github"></i></i></a>
+            <a href="https://github.com/Marques-Souza/biblioteca-de-livros"target="_blank"><i class="bx bx-desktop"></i></a>
+          </div>
         </div>
+
+        <div class="projects-box proj-2">
+          <img src="assets/PrevisaoTempo.png" alt="projects 2" />
+          <div class="projects-layer">
+            <h4>Previsão do Tempo</h4>
+
+            <p>
+              App de previsão do tempo feito com Angular e Bootstrap, 
+              utilizando a API Weather. Exibe dados como temperatura,
+              umidade e horários de nascer e pôr do sol, com design responsivo.
+            </p>
+            <a href="https://github.com/Marques-Souza/update-previsao" target="_blank"><i class="bx bxl-github"></i></i></a>
+            <a href="https://marques-souza.github.io/update-previsao/#/previsao" target="_blank"><i class="bx bx-desktop"></i></a>
+          </div>
+        </div>
+
+        <div class="projects-box proj-3">
+          <img src="assets/UsuariosGithub.png" alt="projects 3" />
+          <div class="projects-layer">
+            <h4>Pesquisa de Usuarios GitHub</h4>
+
+            <p>
+              Aplicação desenvolvida com Angular e Bootstrap,
+              utilizando a API do GitHub para buscar informações
+               de usuários e exibir seus dados..
+            </p>
+            <a href="https://github.com/Marques-Souza/Buscar-Usuarios-Github" target="_blank"><i class="bx bxl-github"></i></i></a>
+            <a href="https://marques-souza.github.io/Buscar-Usuarios-Github/" target="_blank"><i class="bx bx-desktop"></i></a>
+          </div>
+        </div>
+
+        <div class="projects-box proj-4">
+          <img src="assets/Cardapio-Online.jpg" alt="projects 4" />
+          <div class="projects-layer">
+            <h4>Cardápio Online</h4>
+
+            <p>
+              Desenvolvido com HTML, JavaScript e Tailwind CSS,
+              com integração de funcionalidades de localização e comunicação dinâmica via WhatsApp, 
+              proporcionando uma experiência fluida e responsiva para o usuário.
+            </p>
+            <a href="https://github.com/Marques-Souza/Cardapio-Online" target="_blank"><i class="bx bxl-github"></i></i></a>
+            <a href="https://cardapio-online-nine.vercel.app/" target="_blank"><i class="bx bx-desktop"></i></a>
+          </div>
+        </div>
+
+        <div class="projects-box proj-5">
+          <img src="assets/Lanchonete-Online.jpg" alt="projects 5" />
+          <div class="projects-layer">
+            <h4>Lanchonete Online</h4>
+
+            <p>
+              Desenvolvido com HTML, CSS, e JavaScript, 
+              utilizando JSON como banco de dados fake. 
+              Inclui integração com WhatsApp via link dinâmico
+               e notificações com a biblioteca Toastify.
+            </p>
+            <a href="https://github.com/Marques-Souza/lanchonete-oline" target="_blank"><i class="bx bxl-github"></i></i></a>
+            <a href="https://lanchonete-oline.vercel.app/" target="_blank"><i class="bx bx-desktop"></i></a>
+          </div>
+        </div>
+
+        <div class="projects-box proj-6">
+          <img src="assets/DevBurger.jpg" alt="projects 6" />
+          <div class="projects-layer">
+            <h4>Devburger</h4>
+
+            <p>
+              Desenvolvido com JavaScript no back-end e React no front-end,
+              integrando PostgreSQL e MongoDB como bancos de dados. 
+              Utilizando Docker para facilitar a configuração do ambiente e Multer para upload de imagens.
+              O front-end foi otimizado com diversas bibliotecas, incluindo React Forms.
+            </p>
+            <a href="https://github.com/Marques-Souza/DevBurger-Fron-End" target="_blank"><i class="bx bxl-github"></i></i></a>
+            <a href="https://github.com/Marques-Souza/DevBurger-Fron-End" target="_blank"><i class="bx bx-desktop"></i></a>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- projects section -->
+    
 
-
-    <!-- contact section -->
+    
     <section class="contact" id="contact">
-        <h2 class="title">Contact <span>Me!</span> </h2>
+      <h2 class="title">Contact <span>Me!</span></h2>
 
-        <form action="">
-            <div class="input-box contact-animation">
-                <input type="text" placeholder="Full Name">
-                <input type="number" placeholder="Number Phone">
-                
-                
-            </div>
-
-            <div class="input-box contact-animation-2">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Subject">
-            </div>
-            <textarea class="contact-animation-3" cols="30" rows="10" placeholder="Message"></textarea>
-
-            <a href="#" class="btn contact-animation-3 ">Send Message</a>
-        </form>
-
+      <form id="contact-form">
+        <div class="input-box contact-animation">
+          <input type="text" placeholder="Full Name" name="name" />
+          <input type="number" placeholder="Phone Number" name="phone" />
+        </div>
+        <div class="input-box contact-animation-2">
+          <input type="email" placeholder="E-mail" name="email" />
+          <input type="text" placeholder="Subject" name="subject" />
+        </div>
+        <textarea
+          name="message"
+          class="contact-animation-3"
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <div class="contact-animation-3">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
     </section>
-    <!-- /contact section -->
 
+    
 
-    <!-- about section -->
+   
 
     <section class="about" id="about">
-        <div class="about-img about-animation">
-            <img src="assets/Marques.png" alt="about me">
-        </div>
+      <div class="about-img about-animation">
+        <img src="assets/Marques.png" alt="about me" />
+      </div>
 
-        <div class="about-content about-animation-2">
-            <h1>About Me</h1>
-            <h3>Front-End<span> Developer</span></h3>
-            <P>Falar sobre mim
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quo iure excepturi libero, eaque delectus commodi incidunt
-                eius repellat numquam temporibus esse ex voluptas ab vel
-                dolorum velit aspernatur, autem minima!
-            </P>
-            <a href="#" class="btn">Read More</a>
-        </div>
+      <div class="about-content about-animation-2">
+        <h1>About Me</h1>
+        <h3>Front-End<span> Developer</span></h3>
+        <p>
+          Olá! Meu nome é Marques Souza, e sou um desenvolvedor web apaixonado
+          por tecnologia e design. Estou sempre em busca de criar soluções
+          inovadoras e práticas que proporcionem uma ótima experiência aos
+          usuários. Sou formado em Análise e Desenvolvimento de Sistemas e
+          conclui um curso de Desenvolvimento Web pela Instituição Federal do
+          Rio Grande do Sul, o que fortaleceu minha base em programação.
+          Atualmente, estou cursando Desenvolvimento Full Stack, onde aprofundo
+          minhas habilidades tanto no front-end quanto no back-end. Comecei
+          minha jornada no desenvolvimento web com HTML, CSS e JavaScript, e
+          desde então venho aprimorando minhas habilidades, explorando
+          frameworks modernos como Angular, Bootstrap. Meu objetivo é criar
+          interfaces intuitivas, dinâmicas e responsivas, capazes de atender às
+          necessidades do mercado atual. Além de programar, gosto de aprender
+          novas tecnologias e me desafiar com projetos pessoais. Meu portfólio
+          reflete minha dedicação e compromisso em entregar resultados de
+          qualidade. Estou em busca de oportunidades para contribuir com meu
+          conhecimento e continuar crescendo profissionalmente.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
     </section>
-    <!-- /about section -->
+    
 
-
-    <!-- footer -->
+   
     <footer>
-        <p>Marques Souza &copy; 2024</p>
+      <p>Marques Souza &copy; 2024</p>
     </footer>
-
-</body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js/script.js"></script>
-
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </html>
